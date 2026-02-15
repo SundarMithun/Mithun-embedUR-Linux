@@ -1,0 +1,4 @@
+chmod +x file1.txt
+#chmod 777 fileqn1.txt
+
+ls -l file1.txt

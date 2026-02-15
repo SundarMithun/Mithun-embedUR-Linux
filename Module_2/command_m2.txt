@@ -1,0 +1,23 @@
+#large file greater than 1MB 
+
+ls -lh | awk '$6 >1048576' > largefile.txt
+
+#Replace localhost with 127.0.0.1
+
+sed 's/localhost/127.0.0.1/g' config.txt > updated_config.txt
+
+
+#Search Error Lines exclude Debug
+
+grep "ERROR" log.txt | grep -v "DEBUG" > filtered_log.txt
+
+#Identify process id with high memory
+
+
+pid=$(top -b -o %MEM -n 1 | awk 'NR==8 {print $1}')
+kill -9 $pid
+
+
+#List all gateways in sorted order
+
+ip route | awk '/default/{print $3}' | sort

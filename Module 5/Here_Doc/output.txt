@@ -1,0 +1,4 @@
+Searching 'TODO' in myfile.txt
+TODO: Complete the recursive function.
+TODO: Add error handling.
+Exit status: 0

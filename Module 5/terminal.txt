@@ -1,0 +1,19 @@
+root@ubuntuu:/home/vboxuser/Desktop/Mithun asgn embedur/Module_5# ls
+error_logging.sh    Here_Doc             Recursive_fn         sample.txt             terminal.txt
+getopts_example.sh  input_validation.sh  recursive_search.sh  special_parameters.sh
+root@ubuntuu:/home/vboxuser/Desktop/Mithun asgn embedur/Module_5# ./recursive_search.sh . Here_Doc
+Found 'Here_Doc' in ./terminal.txt
+root@ubuntuu:/home/vboxuser/Desktop/Mithun asgn embedur/Module_5# ./error_logging.sh sample.txt
+File exists.
+root@ubuntuu:/home/vboxuser/Desktop/Mithun asgn embedur/Module_5# ./input_validation.sh sample.txt hello
+Inputs are valid.
+root@ubuntuu:/home/vboxuser/Desktop/Mithun asgn embedur/Module_5# ./special_parameters.sh arg1 arg2
+Script name: ./special_parameters.sh
+Number of arguments: 2
+Exit status: 0
+All arguments: arg1 arg2
+root@ubuntuu:/home/vboxuser/Desktop/Mithun asgn embedur/Module_5# ./getopts_example.sh -d testdir -k hello -f sample.txt
+Directory: testdir
+Keyword: hello
+File: sample.txt
+
