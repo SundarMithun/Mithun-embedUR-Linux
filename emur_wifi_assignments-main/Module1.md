@@ -101,7 +101,7 @@ Answer:
   - Channel Width: 40/80/160 MHz
   - Interference: Low
 
-Device Properties (User: Pooja Srikanth):
+Device Properties User
 
 - 2.4 GHz Connection:
   - SSID: Nokia C12 Pro
